@@ -10,6 +10,8 @@ import xrdb2terminator
 import xrdb2Xresources
 import xrdb2putty
 import xrdb2xfce_terminal
+import xrdb2Remmina
+import xrdb2Termite
 
 if __name__ == '__main__':
 
@@ -31,3 +33,7 @@ if __name__ == '__main__':
     print('OK --> ' + '../putty/')
     xrdb2xfce_terminal.main('../xrdb/', '../xfce4terminal/colorschemes/')
     print('OK --> ' + '../xfce4terminal/colorschemes/')
+    xrdb2Remmina.main('../xrdb/', '../remmina/')
+    print('OK --> ' + '../Remmina/')
+    xrdb2Termite.main('../xrdb/', '../termite/')
+    print('OK --> ' + '../termite/')
